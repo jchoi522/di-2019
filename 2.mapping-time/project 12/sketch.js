@@ -51,7 +51,7 @@ arc(300,300,500,500,0,PI)
 
   fill('yellow')
     var pthours = pointAt(300, 0, hoursAngle, 150)
-    circle(pthours.x, 300+abs(pthours.y), 300)
+    circle(pthours.x, 300-abs(pthours.y), 300)
 
     fill('red')
       var pthour = pointAt(300, 0, hourAngle, 75)
